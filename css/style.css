@@ -587,14 +587,14 @@ a.reqe-button {
 }
 
 .popup .close:hover {
-    color: #686de0;
+    color: #040769;
 }
 
 /* //popup */
 
 /* banner */
 .main-top {
-    background: url(../images/img_1097.jpg) no-repeat bottom;
+    background: url(../images/Pool_2022.jpg) no-repeat bottom;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -641,13 +641,13 @@ a.reqe-button {
 h5.popular-wthree-text {
     font-size: 24px;
     color: #3a3939;
-    border: 3px double #EA4335;
+    border: 3px double #040769;
     letter-spacing: 1px;
 }
 
 h3.tittle {
     font-size: 40px;
-    color: #EA4335;
+    color: #040769;
     line-height: 1.4;
 }
 
@@ -674,14 +674,14 @@ h3.tittle {
 
 /* button */
 .button-style {
-    background: #1dd1a1;
+    background: #040769;
     padding: 12px 25px;
     border: none;
     color: #fff;
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    border: 2px solid #1dd1a1;
+    border: 2px solid #040769;
 }
 
 .button-style:hover {
@@ -700,7 +700,7 @@ h3.tittle {
 }
 
 .welcome-grid span {
-    color: #1dd1a1;
+    color: #040769;
     font-size: 42px;
 }
 
@@ -735,7 +735,7 @@ p.para-text-w3ls {
 
 /* price */
 h3.sec-hedadc {
-    color: #1dd1a1;
+    color: #040769;
 }
 
 .prices {
@@ -770,7 +770,7 @@ h3.sec-hedadc {
 .prices-top h3 {
     font-size: 30px;
     text-shadow: 0 2px 12px rgba(97, 50, 3, 0.6);
-    background: #EA4335;
+    background: #040769;
     width: 90px;
     height: 90px;
     line-height: 2.9;
@@ -825,7 +825,7 @@ a.button,
 
 a.button:hover,
 .book-form input[type=submit]:hover {
-    background: #1dd1a1;
+    background: #040769;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
@@ -837,7 +837,7 @@ a.button:hover,
 
 /* testimonails */
 .testi-w3ls {
-    background: #1dd1a1;
+    background: #040769;
 }
 
 p.sub-tittle {
@@ -899,11 +899,11 @@ p.sub-tittle {
 }
 
 .midd-contact {
-    border-left: 2px solid #F44336 !important;
+    border-left: 2px solid #040769 !important;
 }
 
 p.para-agileits-w3layouts i {
-    color: #1dd1a1;
+    color: #040769;
 }
 
 p.para-agileits-w3layouts a {
@@ -913,7 +913,7 @@ p.para-agileits-w3layouts a {
 p.para-agileits-w3layouts a:hover,
 .w3l-footer ul li a:hover,
 p.copy-right-grids a:hover {
-    color: #000;
+    color: #006;
 }
 
 h4.contact-title {
@@ -955,7 +955,7 @@ h4.contact-title {
 }
 
 .form-bg-w3ls button:hover {
-    background: #1dd1a1;
+    background: #f45a06;
     transition: .5s ease-in;
     -webkit-transition: .5s ease-in;
     -moz-transition: .5s ease-in;
@@ -1013,7 +1013,7 @@ h4.contact-title {
 .wthree-subscribef-w3ls button {
     outline: none;
     padding: 15px;
-    background: #1dd1a1;
+    background: #f45a06;
     font-size: 15px;
     color: #fff;
     border: none;
@@ -1050,7 +1050,7 @@ h4.contact-title {
 }
 
 .footer_w3layouts_gridf_list li span.fa {
-    color: #ee4f4f;
+    color: #040769;
     padding-right: 1em;
 }
 
@@ -1065,7 +1065,7 @@ h4.contact-title {
 }
 
 .footer_w3layouts_gridf_list li a:hover {
-    color: #EA4335;
+    color: #040769;
 }
 
 .footer_w3layouts_gridf_list li:last-child {
@@ -1074,7 +1074,7 @@ h4.contact-title {
 
 .addressf-agileits-w3layouts p span.fa {
     margin-right: .2em;
-    color: #ee4f4f;
+    color: #040769;
     display: inline-block;
     text-align: center;
     font-size: 3em;
@@ -1167,7 +1167,7 @@ h3.sub-w3ls-headf {
     line-height: 32px;
     background: transparent;
     margin-right: 4px;
-    color: #ea4335;
+    color: #040769;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
@@ -1591,5 +1591,35 @@ h3.sub-w3ls-headf {
         font-size: 34px;
     }
 }
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-size: 18px;
+}
+.gallary_container{
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+  grid-auto-rows: 15.5em;  
+  padding: 10px;
+}
 
-/* //responsive */
+.image_container img{
+  width: 100%;
+  height: 100%; 
+    box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .image-tall {
+    grid-row: span 2 / auto;
+  }
+
+  .image-wide {
+    grid-column: span 2 / auto;
+  }
+}/* //responsive */
